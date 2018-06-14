@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/white"
+        android:id="@+id/return_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/left_img"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/icon_back_search" />
+
+        <TextView
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_toRightOf="@id/left_img"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:background="@color/white"
+            android:textColor="@color/green"
+            android:textSize="16sp"
+            android:text="关于我们"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"/>
+
+
+    <!--版本号处-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#fafafa">
+
+        <ImageView
+            android:id="@+id/tv_about_us_aggpic"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo" />
+
+        <TextView
+            android:id="@+id/tv_about_us_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_about_us_aggpic"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="8dp"
+            android:text="时时彩开奖"
+            android:textColor="#a1a1a1"
+            android:textSize="14sp" />
+
+        <TextView
+
+            android:id="@+id/tv_about_us_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_about_us_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="4dp"
+            android:text="1.0.0"
+            android:textColor="#a1a1a1"
+            android:textSize="12sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/tv_about_us_version"
+            android:background="#e1e1e1"></View>
+
+    </RelativeLayout>
+
+
+    <!--正文-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/tv_about_us_recommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:lineSpacingMultiplier="1.25"
+            android:text="时时彩开奖本应用为广大彩民量身定制的手机客户端，是时时彩、北京赛车、幸运28、重庆时时彩、六合彩、新疆时时彩、天津时时彩、北京三分彩，各个彩种游戏的专业服务平台，还为移动端用户提供专业的资讯、数据分析、技巧研究等服务，安全、优质、高效的移动互联网个性化服务终端。"
+            android:textColor="#000000"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

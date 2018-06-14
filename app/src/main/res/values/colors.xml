@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="fl_progress_bg1">#D0021B</color>
+    <color name="fl_progress_bg2">#66D0021B</color>
+    <color name="fl_progress_bg3">#EC9AA4</color>
+    <!--progressbar-->
+    <color name="pocket_color_1">#85edb9</color>
+    <color name="pocket_color_2">#34bdb7</color>
+    <color name="pocket_color_3">#ee4458</color>
+    <color name="pocket_color_4">#fcb74d</color>
+    <!--smooth_progressbar-->
+    <color name="spb_default_color">#33b5e5</color>
+    <dimen name="spb_default_stroke_separator_length">4dp</dimen>
+    <dimen name="spb_default_stroke_width">4dp</dimen>
+    <integer name="spb_default_sections_count">4</integer>
+    <integer name="spb_default_interpolator">0</integer>
+    <item name="spb_default_speed" format="float" type="string">1</item>
+    <bool name="spb_default_reversed">false</bool>
+    <bool name="spb_default_mirror_mode">false</bool>
+    <bool name="spb_default_progressiveStart_activated">false</bool>
+
+    <!-- 页面 -->
+    <color name="page_bg">#FAFAFA</color>
+    <color name="page_new_bg">#F7F7F7</color>
+    <color name="index_text_color">#FF262626</color>
+    <color name="dialog_clean_cache_title_color">#DE000000</color>
+    <color name="dialog_clean_cache_text_color">#8A000000</color>
+    <color name="split_line_bg">#1A000000</color>
+    <color name="cost_list_item_border">#CCCCCC</color>
+    <color name="my_detection_list_item_border">#CCCCCC</color>
+    <color name="my_voucher_list_item_gray_bg">#CCCCCC</color>
+    <color name="my_voucher_list_item_gray_text">#B6B6B6</color>
+    <color name="my_detection_state_red">#ff0000</color>
+    <color name="swipe_menu_listview_del_red_bg">#D0011B</color>
+    <color name="progressBar_have_reward_red_bg">#FF945D</color>
+    <color name="progressBar_no_reward_red_bg">#F9E2C8</color>
+    <color name="getGoods_btn_bg">#e1e1e1</color>
+    <color name="tel_blue_color">#156BE2</color>
+
+
+    <color name="common_top_bar_blue">#4ebcd3</color>
+    <color name="btn_login_normal">#00acff</color>
+    <color name="btn_login_pressed">#46678d</color>
+    <color name="btn_logout_normal">#d33f3f</color>
+    <color name="btn_logout_pressed">#DA5A4D</color>
+    <color name="btn_register_normal">#ffffff</color>
+    <color name="btn_register_pressed">#00acff</color>
+    <color name="common_bottom_bar_normal_bg">#2d2f31</color>
+    <color name="common_bottom_bar_selected_bg">#161718</color>
+    <color name="common_botton_bar_blue">#2ea7e0</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="btn_pressed_green_solid">#B6DA53</color>
+    <color name="divider_list">#d4d4d4</color>
+    <color name="top_bar_normal_bg">#2bb359</color>
+    <color name="error_item_color">#F6EBE6</color>
+    <color name="bottom_bar_normal_bg">#2D2F31</color>
+    <color name="bottom_text_color_normal">#ffffff</color>
+    <color name="btn_white_normal">#f7f8f8</color>
+    <color name="btn_white_pressed">#b5b5b6</color>
+    <color name="btn_green_noraml">#68C270</color>
+    <color name="btn_green_pressed">#6FCD78</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="btn_gray_pressed">#666667</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="orange">#FFA500</color>
+    <color name="gray_pressed">#b5b5b6</color>
+    <color name="gray_normal">#666667</color>
+    <color name="grid_state_pressed">#1Affffff</color>
+    <color name="grid_state_focused">#80000000</color>
+    <color name="voip_interface_text_color">#bababa</color>
+    <color name="black_deep">#FF000000</color>
+    <color name="btn_answer_pressed">#4ebcd3</color>
+    <color name="btn_answer_normal">#2dafa3</color>
+    <color name="list_item_secondary_color">#888888</color>
+    <color name="list_item_primary_color">#000</color>
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_orange_light">#ffffbb33</color>
+    <color name="holo_red_light">#ffff4444</color>
+
+    <color name="titleBar">#25ae29</color>
+    <color name="button">#2cb258</color>
+    <color name="buttonText">#ffffff</color>
+    <color name="bgColor">#efeff4</color>
+    <color name="stroke">#e3e3e3</color>
+    <color name="textColor">#a9a9a9</color>
+    <color name="text_black">#333333</color>
+    <color name="hint_gray">#808080</color>
+    <color name="white">#ffffffff</color>
+
+    <color name="green">#57b663</color>
+    <color name="green_bg">#6657b663</color>
+    <color name="shallow_green">#86BA63</color>
+    <color name="line_bg">#e3e3e3</color>
+    <color name="gray_bg">#efeff4</color>
+    <!--分割线-->
+    <color name="divider">#e3e3e3</color>
+    <color name="black">#ff000000</color>
+    <!--分割线_Textcolor-->
+    <color name="general">#000000</color>
+    <color name="gray">#c1c1c1</color>
+    <color name="dark_gray">#333333</color>
+    <color name="red">#FC1C1C</color>
+    <!--生产效益列表背景色-->
+    <color name="gray_">#c1c1c1</color>
+    <color name="red_btn">#E8684B</color>
+    <color name="red_circle">#d0001b</color>
+
+    <color name="text_color_gray">#8F000000</color>
+    <color name="text_color_gray_disable">#B3FFFFFF</color>
+    <color name="text_color_white">#FFFFFFFF</color>
+    <color name="text_color_green">#FF2CB258</color>
+    <color name="text_color_green_2">#2bb359</color>
+    <color name="text_color_gray_2">#696969</color>
+    <color name="text_color_gray_3">#757575</color>
+    <color name="text_color_gray_4">#9B9B9B</color>
+    <color name="bg_color_gray">#f3f3f3</color>
+    <color name="bg_color_gray_a1">#a1a1a1</color>
+    <color name="bg_color_gray_fa">#fafafa</color>
+    <color name="bg_color_green_2ab">#2ab459</color>
+    <color name="bg_color_green_2bb">#2bb059</color>
+    <!-- 蛋鸡管家-->
+    <color name="wheel_btn_nor">#54a3fa</color>
+    <color name="wheel_btn_pre">#CCCCCC</color>
+    <color name="wheel_start_color">#efE9E9E9</color>
+    <color name="wheel_center_color">#cfE9E9E9</color>
+    <color name="wheel_end_color">#3fE9E9E9</color>
+    <color name="back_color">#ffE9E9E9</color>
+    <color name="default_text_color">#FF585858</color>
+
+    <color name="wheel_textcolor_out">#a8a8a8</color>
+    <color name="wheel_textcolor_center">#2a2a2a</color>
+    <color name="wheel_textcolor_divider">#d5d5d5</color>
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="c1">#f1f1f1</color>
+    <color name="c2">#eeeeee</color>
+    <color name="c3">#dedede</color>
+    <color name="c4">#cecece</color>
+    <color name="c5">#9b9b9b</color>
+    <color name="c6">#646464</color>
+    <color name="c7">#383838</color>
+    <color name="c8">#ff6c6c</color>
+    <color name="c9">#cc3333</color>
+    <color name="c10">#e79e99</color>
+    <color name="c11">#ffe8e7</color>
+    <color name="c12">#ffffff</color>
+    <color name="c13">#000000</color>
+    <color name="c14">#960000</color>
+    <color name="c15">#f8f8f8</color>
+    <color name="c16">#c4c4c4</color>
+    <color name="c17">#252525</color>
+    <color name="c18">#e8e8e8</color>
+    <color name="c19">#e11c00</color>
+    <color name="c20">#1f1f1f</color>
+    <color name="c21">#f28f25</color>
+    <color name="c22">#86BA63</color>
+
+    <color name="alph">#00000000</color>
+
+    <color name="my_bbs_color">#18a32c</color>
+    <color name="my_bbs_color_select">#ffffff</color>
+    <color name="my_adopt">#999</color>
+
+    <color name="gray_name">#666666</color>
+    <color name="orange_time">#ff8b03</color>
+    <color name="gray_text">#999999</color>
+    <color name="yello_egg">#f9ba01</color>
+    <color name="divider_shop">#f7f7f7</color>
+    <color name="grag_select_shop">#dddddd</color>
+    <!-- 透明 -->
+    <color name="transparent">#0000</color>
+    <!--论坛-昵称-->
+    <color name="forum_nickname">#0A64E1</color>
+    <color name="forum_content">#333333</color>
+    <color name="forum_comment_more">#0762AF</color>
+    <color name="forum_comment_time">#CCCCCC</color>
+    <color name="forum_group_num">#046EE1</color>
+    <color name="forum_group_already_adopted">#CCCCCC</color>
+    <color name="forum_group_adopt">#F70404</color>
+    <color name="rippelColor">#FFFFFF</color>
+    <!--云检测首页color-->
+    <color name="detection_index_blue">#0A64E1</color>
+    <color name="detection_index_green">#57B663</color>
+    <color name="line">#CCCCCC</color>
+    <color name="out_line">#dddddd</color>
+    <color name="orange_immune">#F6A623</color>
+    <!--评论发送-->
+    <color name="comment_send">#0A64E1</color>
+    <!--进度条颜色-->
+    <color name="progress_color">#0A64E1</color>
+    <color name="progress_color_bg">#660A64E1</color>
+    <!--秒杀价格-->
+    <color name="price_spike">#D0011B</color>
+    <!--pop window 背景-->
+    <color name="pop_background">#b3b3b3</color>
+    <drawable name="group_bug_bg">#FF57B663</drawable>
+    <drawable name="group_bug_bg_gray">#999999</drawable>
+</resources>
