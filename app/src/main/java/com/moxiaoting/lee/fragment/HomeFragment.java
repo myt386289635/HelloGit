@@ -56,7 +56,7 @@ public class HomeFragment extends Fragment implements AdapterView.OnItemClickLis
         View view = inflater.inflate(R.layout.activity_main, container, false);
         ButterKnife.bind(this, view);
         initView();
-        getDate();
+        getDate();   //测试一下
         return view;
     }
 
